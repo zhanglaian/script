@@ -11,6 +11,7 @@ if [ $1 = "vue" ]; then
     tar -zxvf /home/admin/app/package.tgz 
     rm -rf /home/admin/app/package.tgz
     mkdir -p /var/www/zhian_shop
+    rm -rf /var/www/zhian_shop/
     mv /home/admin/app/* /var/www/zhian_shop/
   
 
